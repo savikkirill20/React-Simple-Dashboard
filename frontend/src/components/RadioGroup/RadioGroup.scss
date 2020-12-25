@@ -1,0 +1,65 @@
+.c-radio-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  & label {
+    flex-shrink: 0;
+    min-width: 116px;
+    text-align: center;
+    color: #3B3F50;
+    cursor: pointer;
+
+    &:first-child span {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      border-left: 1px solid #DFE0EB;
+    }
+
+    &:last-child span {
+      margin-right: 0;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-right: 1px solid #DFE0EB;
+
+      &::after {
+        content: none;
+      }
+    }
+
+    & span {
+      position: relative;
+      display: block;
+      margin-right: 1px;
+      padding: 5px 15px;
+      font-size: 15px;
+      line-height: 22px;
+      transition: 250ms ease;
+      border-top: 1px solid #DFE0EB;
+      border-bottom: 1px solid #DFE0EB;
+
+      &:focus,
+      &:hover {
+        background-color: #DFE0EB;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        bottom: -1px;
+        display: block;
+        width: 1px;
+        background-color: #DFE0EB;
+      }
+    }
+
+    & .iradio.checked + span {
+      color: #FFFFFF;
+      text-shadow: 0 0 1px #FFFFFF;
+      background: #7B84A4;
+      border-color: #7B84A4;
+    }
+  }
+}

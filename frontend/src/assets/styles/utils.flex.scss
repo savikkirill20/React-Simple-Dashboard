@@ -1,0 +1,39 @@
+.u-display-flex {
+  display: flex;
+}
+
+.u-flex-nowrap {
+  flex-flow: row nowrap;
+}
+
+.u-flex-align-center {
+  align-items: center;
+}
+
+.u-flex-align-start {
+  align-items: flex-start;
+}
+
+.u-flex-align-end {
+  align-items: flex-end;
+}
+
+.u-flex-justify-center {
+  justify-content: center;
+}
+
+.u-flex-justify-start {
+  justify-content: flex-start;
+}
+
+.u-flex-justify-end {
+  justify-content: flex-end;
+}
+
+.u-flex-justify-around {
+  justify-content: space-around;
+}
+
+.u-flex-justify-between {
+  justify-content: space-between;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "amplitude-js": "^7.3.3",
+    "axios": "^0.21.0",
+    "classnames": "^2.2.6",
+    "icheck": "^1.0.2",
+    "jwt-decode": "^3.1.1",
+    "mixpanel-browser": "^2.39.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "rc-pagination": "^3.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icheck": "^0.3.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-table": "^7.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

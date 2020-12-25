@@ -1,0 +1,25 @@
+@import './fonts.scss';
+@import './settings.spacing.scss';
+@import './utils.flex.scss';
+@import './utils.spacing.scss';
+@import './utils.text-align.scss';
+@import './utils.border.scss';
+@import './utils.font-weight.scss';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gelion', sans-serif;
+}

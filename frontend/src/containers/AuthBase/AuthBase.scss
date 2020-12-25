@@ -1,0 +1,189 @@
+// styles from old project
+.dashboard-base {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .dashboard-content {
+    background-color: rgba(229, 229, 238, 0.38);
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    margin-top: 41px;
+    text-align: center;
+  }
+}
+
+.auth-input-container {
+  margin-top: 32px;
+  width: 375px;
+}
+
+.input-container {
+  label {
+    display: block;
+    font-family: sans-serif;
+    //font-family: Montserrat, FaktPro, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+  }
+}
+
+.input {
+  vertical-align:middle;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.btn {
+  padding: 10px 12px;
+  text-align: center;
+  border: none;
+  cursor: pointer;    
+  span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &-pink {
+    background-color: #ff5d86;
+    color: #fff;
+
+    &:hover {
+      background-color: lighten(#ff5d86, 5%);
+    }
+  }
+
+  &-blue {
+    background: #598CFF;
+    border-radius: 4px;
+  }
+
+  &.big {
+    padding: 15px 36px 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+
+    @media (max-width: 960px) {
+      font-size: 12px;
+    }
+  }
+}
+
+// styles from just these elements
+
+.auth-base{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+
+  width: 439px;
+  height: 371px;
+  left: 501px;
+  top: 130px;
+  margin: auto;
+  margin-top: 38px;
+
+  /* grayscale / white */
+  background: #FFFFFF;
+
+  /* grayscale / divider */
+  border: 1px solid #DFE0EB;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+  .header-icon {
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 27px;
+    color: #4A4F62;
+  }
+
+  a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .input-container {
+    margin-bottom: 14px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+  }
+
+  .signup-urls-container {
+    margin: 0px 16px;
+  }
+
+  .urls-container {
+    margin-top: 32px;
+    text-align: center;
+    a {      
+      color: #4A4F62;
+      text-decoration: none;
+    }
+  }
+  
+  .feedback {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
